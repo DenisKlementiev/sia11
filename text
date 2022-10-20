@@ -1,0 +1,11 @@
+var
+  fact, n : integer;
+begin
+  fact := 1;
+  n := 1;
+  while n<=10 do
+   begin
+     fact := fact*n;
+     n := n + 1
+   end;
+end.
